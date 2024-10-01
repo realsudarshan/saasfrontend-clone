@@ -28,11 +28,11 @@ console.log(Monthlyplan);
  
     return (
         <>
-        <Badge variant={"destructive"} className="mb-10">Adaptable Pricing
+        <Badge variant={"destructive"} className="my-10">Adaptable Pricing
         </Badge>
         <h1 className="text-4xl">Choose your plan</h1>
         <p>Select the ideal plan for your business requirements</p>
-        Yearly<Switch checked={switchstate} onCheckedChange={switchhandler} className="m-4"></Switch>Monthly
+        <div>Yearly<Switch checked={switchstate} onCheckedChange={switchhandler} className="m-4"></Switch>Monthly</div>
 {switchstate?<div className="flex justify-center flex-wrap ">
     {Monthlyplan.basePlans.map(({plan,description,features,price})=>(
         <PriceCards plan={plan} description={description} features={features} price={price}/>

@@ -11,7 +11,7 @@ const CardsSection = () => {
         </h1>
       <p className="text-center p-10 md:p-6">Explore a diverse range of cutting-edge tools meticulously crafted to drive your business towards unparalleled success.</p> 
       </div>
-      <div className="flex flex-row justify-center flex-wrap">
+      <div className=" mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 ">
        {carddetail.map(({title,description,cardContent})=>(
           <CustomCards title={title} discription={description} cardcontent={cardContent}/> 
         )

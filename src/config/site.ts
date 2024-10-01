@@ -11,8 +11,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    youtube: "https://youtube.com/@m6io",
-    github: "https://github.com/m6io/shadcn-vite-template",
+    linkedin: "https://www.linkedin.com/in/sudarsan-dhakal-5b4522284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    github: "https://github.com/realsudarshan",
     docs: "https://ui.shadcn.com",
   },
 }

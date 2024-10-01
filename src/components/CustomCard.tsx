@@ -12,10 +12,10 @@ import {
     cardcontent:String
   }
   const CustomCards=({title,discription,cardcontent}:Cardpropstype)=>{
-    return(<Card className="w-60 p-4 m-14 border-red-500">
+    return(<Card className=" border-red-400 bg-gradient-to-b from-gray-200 to-transparent rounded-3xl">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
-          <CardDescription>{discription}</CardDescription>
+          <CardDescription className="text-black dark:text-white">{discription}</CardDescription>
         </CardHeader>
         <CardContent>
           <p>{cardcontent}</p>

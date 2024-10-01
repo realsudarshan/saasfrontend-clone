@@ -1,10 +1,11 @@
 import { SiteHeader } from "@/components/site-header"
 import Software from "./components/Software"
 import { TailwindIndicator } from "./components/tailwind-indicator"
+import GetinTouch from "./GetinTouch"
 import Hero from "./components/Hero"
 import CardsSection from "./components/CardsSection"
 import Pricing from "./components/Pricing"
-
+import { FAQ } from "./components/FAQ"
 function App() {
  
 
@@ -21,13 +22,23 @@ function App() {
         <Software/>
         
         </div>
-        <div className="mb-20">
-      
-        <CardsSection />
-      </div>
-      <Pricing/>
-      
         
+      <div className="flex gap-30 flex-col items-center ">
+        <CardsSection />
+      
+      
+      
+      <Pricing/>
+    
+      <FAQ/>
+      
+        <GetinTouch/>
+      
+
+      
+        <p>Looking for a frontend developer with React and TailwindCSS skills? Reach out to me at<span className="text-bold text-red-500"> sudarshandhakal102@gmail.com</span> 🚀</p>
+      
+        </div>
        </main>
      
        

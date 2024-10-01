@@ -3,6 +3,7 @@ import { MainNav } from "@/components/main-nav"
 import { ModeToggle } from "@/components/mode-toggle"
 import { buttonVariants } from "@/components/ui/button"
 import { siteConfig } from "@/config/site"
+import { Linkedin } from "lucide-react"
 import { Link } from "react-router-dom"
 
 export function SiteHeader() {
@@ -24,7 +25,7 @@ export function SiteHeader() {
               </div>
             </Link>
             <Link
-              to={siteConfig.links.youtube}
+              to={siteConfig.links.linkedin}
               target="_blank"
               rel="noreferrer"
             >
@@ -34,8 +35,8 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.youtube className="h-5 w-5" />
-                <span className="sr-only">YouTube</span>
+                <Linkedin className="h-5 w-5"/>
+                <span className="sr-only">Linkedin</span>
               </div>
             </Link>
             <ModeToggle />
